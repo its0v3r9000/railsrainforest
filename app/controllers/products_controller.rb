@@ -29,7 +29,7 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
 
     if @product.update_attributes(product_params)
-      reditect_to product_path(@product)
+      redirect_to product_path(@product)
     else
       render :edit
     end
