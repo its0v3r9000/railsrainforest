@@ -1,22 +1,5 @@
 Rails.application.routes.draw do
-  get 'reviews/show'
-
-  get 'reviews/create'
-
-  get 'reviews/destroy'
-
-  get 'reviews/show'
-
-  get 'reviews/create'
-
-  get 'reviews/destroy'
-
-  get 'reviews/show'
-
-  get 'reviews/create'
-
-  get 'reviews/destroy'
-
+  root 'products#index'
   get 'reviews/show'
 
   get 'reviews/create'
